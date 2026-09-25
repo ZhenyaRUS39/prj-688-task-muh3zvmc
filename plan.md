@@ -11,11 +11,11 @@
 
 ## Subtasks
 
-### ❌ 1. Инициализировать структуру репозитория и CLI-каркас
+### ⏳ 1. Инициализировать структуру репозитория и CLI-каркас
 
 - **ID:** `sub-1`
 - **Profile:** `20razrab1`
-- **Status:** `failed`
+- **Status:** `unknown`
 - **Description:** Создать pyproject.toml (или package.json+tsconfig), директории src/, tests/, docs/, .gitignore, README.md с описанием, точку входа CLI (например src/cli.py или src/index.ts) с минимальным каркасом команды `backup` через argparse/commander/yargs + Click. Должна запускаться команда `pgbackup --help` и показывать help.
 - **Test plan:** 1) `git clone` чистый, `pip install -e .` (или `pnpm i`) проходит. 2) `pgbackup --help` выводит список подкоманд с описаниями. 3) `pgbackup backup --help` существует (пока stub). 4) `pytest tests/` или `npm test` — пустой smoke-test зелёный.
 
